@@ -1,0 +1,1430 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTROL DE LA DECORACION DEL FONDO DE LOS CUADROS SLIDER ETC*/
+body {
+background-color: white;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23d7d7d7' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+font-family: 'League Spartan', sans-serif;
+  
+}
+
+nav{
+   background-color: rgb(74, 119, 244);
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='0.13'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+   width: 100%;
+   height: 6rem;
+   display: flow-root;  
+}
+/*BARRA DELGADAS*/
+.cuadro1
+{
+  background-color: rgb(74, 119, 244);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='0.13'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+     padding: 20px; 
+     margin-top:20px;
+      margin-bottom:0px; 
+     text-align:center; 
+     font-size:22px;
+}
+
+.cuadro2
+{
+  background-color: rgb(74, 119, 244);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='0.13'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+     padding: 20px; 
+     margin-top:-242px;
+      margin-bottom:0px; 
+     text-align:center; 
+}
+/* COLOR DE ABAJO */
+.foother
+{
+  background-color: rgb(74, 119, 244);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='0.13'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+ 
+/* COLOR DEL CURSOS MAS COSAS DE EL ABAJO*/
+::-webkit-scrollbar-thumb {
+  background:  #020203;
+  border-radius: 10px;
+}
+ 
+nav ul li ul li a:hover { /*para que se vea seleccionado el boton gris cuando pasemos el mouse*/
+  background-color: #d0cfd1;
+
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    border: 1px solid #cccccc;
+}
+/* FIN*/
+
+h1
+{
+    color: rgb(255, 226, 10);
+    padding: 0px; 
+    margin-top:35px;
+    margin-bottom:0px; 
+    text-align:center; 
+    font-size:40px;
+    text-shadow: 3px 3px 1px black;
+}
+
+
+.titulo
+{
+    color: rgb(0, 0, 0);
+    padding: 0px; 
+    margin-top:25px;
+    margin-bottom:0px; 
+    font-size:25px;
+    
+}
+
+/*MENU*/
+
+.barra
+{
+height: 10rem;
+width: auto;
+
+}
+/*  */
+
+nav ul {
+    float: left;
+    margin-left: 1rem;
+    z-index: 1; /*superponer el menu encima de todo*/
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    
+}
+nav img {
+    padding: 1rem 2rem;
+    float: left;
+    margin-left: 2rem -1rem;
+    margin-block-start: -108px;
+}
+nav h1 {
+    float: center;
+    align-self: center;
+    font-size: 270%;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    line-height: unset;
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 155%;
+    text-shadow: 0.2px 0.2px 0.3px black;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 100%;
+}
+
+nav ul li ul li a {
+    padding: 1rem 2rem;
+    line-height: unset;
+    white-space: nowrap; /*para que el texto se muestre en una linea*/
+}
+
+.ul2 {
+    padding-left: 300px;
+}
+
+/*BUSCAR BOTON*/
+
+
+
+
+/*INICIAR SESION ESTILO*/
+
+.form-login {
+    width: 380px;
+    height: 350px;
+    background-color: rgb(74, 119, 244);
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='0.13'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+    margin: auto;
+    margin-top: 90px;
+    box-shadow: 7px 13px 37px rgb(58, 58, 58);
+    padding: 20px 30px;
+    border-top: 4px solid #d0bf04;
+    color: white;
+  /* visibility: hidden;  ocultar cosas*/
+  }
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    text-shadow: 1px 2px 2px black;
+  }
+  
+  .controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    width: 100%;
+    height: 40px;
+    background: #014bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    
+  }
+  .buttons:hover{
+    background-color: #1d2761fa;
+  }
+  
+  .form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+
+/*CREAR CUENTA ESTILO*/
+
+.form-register {
+    width: 400px;
+    background-color: rgb(74, 119, 244);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='0.13'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+  }
+  .botons:hover{
+    background-color: #0123abcf;
+  }
+ 
+/*BOTON ACEPTAR*/
+.form-register2 {
+font-size: 150%;
+padding: auto;
+}
+/*MARGENES EN TODA LA PAGINA (CONTANINERS)*/
+
+.container2
+{
+ 
+ max-width: 1200px;
+margin: 30px;
+ padding: 0px 0;
+ height: auto; 
+}
+.container3
+{
+    width: 90%;
+    max-width: 1200px;
+   margin: 0 auto;
+    overflow: hidden;
+    padding: 0px 0;
+    height: auto; 
+}
+
+.container4{
+  margin: 3%;
+}
+.container2_3 {
+  width: 90%;
+  max-width: 1200px;
+ margin: 0 auto;
+  overflow: hidden;
+  padding: 0px 0;
+  height: auto; 
+ }
+ .container2_4
+ {
+  width: 90%;
+  max-width: 1000px;
+ margin: 0 auto;
+  overflow: hidden;
+  padding: 0px 0;
+  height: auto; 
+ }
+ /* IMAGEN DEL PERRITO*/
+.set{
+ top: 17%;
+ margin: 0% 4% -4%;
+ box-shadow: 0 0 0 20px white,
+                 0 0 5px;
+ width: 35%;
+ height: 45%;
+}
+/* */
+
+.card_text {
+    padding: 1px;
+   margin-left: 400px;
+}
+.boton_carta {
+   padding: 100px;
+   margin-right: 400px;
+    text-decoration: none;
+    color: #000;
+    font-size: 150%;
+
+}
+.boton_carta:hover
+{
+    text-decoration: underline;
+}
+
+.container2_0 
+{
+  max-width: 1200px;
+  margin: 90px;
+   padding: 0px 0;
+   height: auto; 
+   margin-top: -10px;
+}
+.titulo3 {
+  font-size: 190%;
+}
+.subtitulo2 {
+  font-size: 130%;
+}
+/*IMAGEN PUBLICIDAD SLIDER*/
+.slider-frame {
+	width: 1349px;
+    height: auto;
+	margin:1px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/*FINAL DE PAGINA ESTILO*/
+
+
+
+.container_foother
+{
+    padding: 2rem;
+    flex-wrap: wrap-reverse;
+   justify-content: space-evenly;
+}
+
+.foother_copyrigth
+{
+    color: rgb(33, 32, 32);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.copyrigth
+{
+    width: 100%;
+    margin-top: 100px;
+   padding: 0rem;
+}
+.politica__privacidad--marggin
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 20px;
+   text-shadow: 1px 1px 2px black;
+
+}
+.politicadeprivacidad{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+.politica__privacidad--marggin:hover
+{
+    text-decoration: underline;
+}
+.politicadeprivacidad:hover
+{
+    text-decoration: underline;
+}
+
+.socialmedia
+{
+    margin-top: 0px;
+    display: flex;
+    color: black;
+
+}
+.socialmedia_icon
+{
+    font-size: 32px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.socialmedia_legend
+{
+    color: rgb(10, 10, 10);
+    margin-right: 1px;
+    padding: 1rem;
+    margin-block:-10px;
+    font-size: 22px;
+}
+.redes {
+  text-decoration: none;
+}
+.imagen {
+    margin-left: 650px;
+    margin-top: -250px;
+}
+.imagen2 {
+  margin-left: 580px;
+  margin-top: -250px;
+}
+.imagen3 {
+  
+  margin-top: -50px;
+  margin-right: -270px;
+margin-left: -10px;
+}
+.imagen4 {
+  
+  margin-top: -50px;
+  margin-left: -300px;
+margin-right: -110px;
+}
+/*MINI ICONOS ESTILO*/
+
+.bx-help-circle {
+    font-size: 85%;
+}
+.bxs-down-arrow{
+    margin-left: 5px;
+    padding: -3rem;
+     font-size: 70%;
+}
+.bx-key{
+   margin-left: 5px;
+   padding: -3rem;
+    font-size: 110%;
+}
+.bxs-home
+{
+    margin-left: 5px;
+    padding: -3rem;
+    font-size: 80%; 
+}
+.bxs-contact
+{
+  margin-left: 150px;
+  margin-top: 50px;
+    padding: -4rem;
+    font-size: 1000%; 
+}
+.h3{
+  text-align: justify;
+  font-size: 170%;
+}
+.img_contacto {
+  margin-top: -250px;
+  margin-right: 100px;
+}
+
+/*PRODUCTO venta*/
+.container-products {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;  
+}
+.product {
+  border: 1px solid #cccccc;
+  padding: 20px;
+  text-align: center;
+  position:relative;
+  text-decoration:none;
+}
+.product:before {
+  content: "NEW";
+  background: #FF4E00;
+  padding: 10px;
+  width: 60px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  transform: rotate(-90deg);
+  color: white;
+  text-decoration:none;
+}
+.product__img{
+  width: 100%;
+  height: 120px;
+  object-fit:scale-down;
+  text-decoration:none;
+}
+.product__title{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-decoration:none;
+}
+.product__price {
+  color: #FF4E00;
+}
+.product__icon {
+  display: block;
+  margin-top: auto;
+}
+/*Producto descripcion*/
+.container-products-2 {
+  display:block;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: auto;
+  
+}
+.product-2 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0%;
+  position:relative;
+  display: flex;
+  column-gap: 5rem;
+
+}
+.product__title-2{
+  text-align: center;
+}
+.product__img-2{
+  width: 240px;
+  height: 380px;
+  object-fit:scale-down;
+  top: 17%;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.product__price-2 {
+  color: #FF4E00;
+  font-weight: bold;
+}
+.product__icon-2 {
+  display: block;
+  margin-top: auto;
+}
+/*Producto descripcion.2*/
+.container-products-3 {
+  display:block;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: auto;
+  
+}
+.product-3 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0%;
+  position:relative;
+  display: flex;
+  column-gap: 5rem;
+
+}
+.product__title-3{
+  text-align: center;
+}
+.product__img-3{
+  width: 250px;
+  height: 280px;
+  object-fit:scale-down;
+  top: 17%;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+.product__price-3 {
+  color: #FF4E00;
+  font-weight: bold;
+}
+.product__icon-3 {
+  display: block;
+  margin-top: auto;
+}
+ /* imagen*/
+ .slider{
+    width: 510px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    list-style:none ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-shadow: 1px 2px 1px black;
+}
+
+.slider img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.7s;
+}
+ 
+.slider input[type="radio"]{
+ position: relative;
+ z-index: 12;
+ margin: 10px;
+} 
+
+.slider input[type="radio"]:checked ~ img{
+    opacity: 1;
+}
+/*ESTRELLA*/  
+  .container5 .star-widget input{
+    display: none;
+  
+  }
+  .star-widget label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container6 .star-widget2 input{
+    display: none;
+  
+  }
+  .star-widget2 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-10:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container7 .star-widget3 input{
+    display: none;
+  
+  }
+  .star-widget3 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-15:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container8 .star-widget4 input{
+    display: none;
+  
+  }
+  .star-widget4 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-20:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container9 .star-widget5 input{
+    display: none;
+  
+  }
+  .star-widget5 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-25:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container10 .star-widget6 input{
+    display: none;
+  
+  }
+  .star-widget6 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-30:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container11 .star-widget7 input{
+    display: none;
+  
+  }
+  .star-widget7 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-35:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container12 .star-widget8 input{
+    display: none;
+  
+  }
+  .star-widget8 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-40:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container13 .star-widget9 input{
+    display: none;
+  
+  }
+  .star-widget9 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-45:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container14 .star-widget10 input{
+    display: none;
+  
+  }
+  .star-widget10 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-50:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container15 .star-widget11 input{
+    display: none;
+  
+  }
+  .star-widget11 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-55:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container16 .star-widget12 input{
+    display: none;
+  
+  }
+  .star-widget12 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-60:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container17 .star-widget13 input{
+    display: none;
+  
+  }
+  .star-widget13 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-65:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container18 .star-widget14 input{
+    display: none;
+  
+  }
+  .star-widget14 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-70:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container19 .star-widget15 input{
+    display: none;
+  
+  }
+  .star-widget15 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-75:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container20 .star-widget16 input{
+    display: none;
+  
+  }
+  .star-widget16 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-80:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container21 .star-widget17 input{
+    display: none;
+  
+  }
+  .star-widget17 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-85:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  
+  /**/
+  .container22 .star-widget18 input{
+    display: none;
+  
+  }
+  .star-widget18 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-90:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  /**/
+  .container23 .star-widget19 input{
+    display: none;
+  
+  }
+  .star-widget19 label{
+    font-size: 15px;
+    color: #444;
+    padding: 10px;
+    float: left;
+    transition: all 0.2s ease;
+    margin-left: 0%;
+  }
+  
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover, label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+   
+  input#rate-95:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  
+  input:checked ~ form{
+    display: block;
+  }
+  /* Cursor*/
+  ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+      border-radius: 10px;
+  }
+
+
+
+  /* CANT*/
+  .bg-light {
+    background-color: #f5f7f6 !important;
+  }
+  /*fondo del coso*/
+  .p-3 {
+    padding: 1rem!important;
+  }
+  .mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+  }
+  
+  .add_cart_quantity_resp {
+    /*margin-left: 54% !important;*/
+    right: 0 !important;
+    top: 10px !important;
+    width: 270px !important;
+    text-align: center;
+    width: 184px;
+    height: max-content;
+    right: 35px;
+    top: 58px;
+    /* Sombra */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* Margenes */
+    padding: 10px;
+    margin-bottom: 5px;
+    /* Color de fondo */
+     background-color: #f3f3f3;
+    /* Bordes redondeados */
+     border-radius: 5px;
+  }
+ 
+  .d-inline-block {
+    display: inline-block!important;
+  }
+  .product_detail_add {
+    width: 63%;
+  }
+  .bg_white {
+   background-color: #FFF !important;
+  }
+  
+  .btn_product_detail_add {
+    border-radius: 0 5px 5px 0;
+    background-color: #FFFFFF;
+    border: 1px solid #002fff;
+    height: 35px; 
+    width: 35px;
+  }
+  element.style {
+    white-space: nowrap;
+  }
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+  }
+ 
+  button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+  }
+  .btn_active2 {  /*boton agregar carrito*/
+    position: relative;
+    background-color:rgb(8, 57, 194);
+    text-decoration: none;
+  }
+ 
+  .color_white {
+    color: #FFFFFF !important;
+  }
+
+  .mt-2, .my-2 { /*espacio*/
+    margin-top: 0.5rem!important;
+  }
+  button {
+    border-radius: 0;
+  }
+  .w-100 {
+    width: 100%!important;
+    border: 12px solid transparent;
+  } 
+  .btn_product_detail_remove {
+    border-radius: 0 5px 5px 0;
+    background-color: #FFFFFF;
+    border: 1px solid  #002fff;
+    height: 35px;
+    width: 35px; 
+    font-size: 28px;
+  }
+  text-center::before{
+    counter-increment:none;
+  }
+  .text_cart_add {
+    color:  #002fff;
+    font-size: 28px;
+  }
+  .color_purple {
+    color:  #0044ff!important;
+  }
+  .darte{
+    display: inline-block ;
+    margin-right: 1px;
+  }
+  .btn_active2{
+   color: white;
+   font-family: "Nova Semibold";
+   font: 11px;
+   margin-top: 3%;
+   white-space: nowrap;
+  } 
+ /* ESTILO DE LA CANTIDAD */
+
+ /*DESPUES DE CREAR CUENTA*/ 
+  .trorte
+  {
+    width: 280px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align:center; 
+    background-color: #fff;
+    font-size:30px;
+    color: #f024f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 68%);
+    text-decoration: none;
+    text-shadow: 2px 3px 0px #00000038;
+  }
+ 
+  
