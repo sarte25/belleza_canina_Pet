@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-10-2023 a las 01:10:47
+-- Tiempo de generación: 24-10-2023 a las 00:41:49
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -99,9 +99,18 @@ CREATE TABLE `factura` (
 CREATE TABLE `mascota` (
   `Codigo_Mascota` varchar(40) NOT NULL,
   `Nomb_mascota` varchar(45) NOT NULL,
+  `Nombre_dueño` varchar(50) NOT NULL,
+  `Cumple` date NOT NULL,
   `Raza_mascota` varchar(45) NOT NULL,
   `cod_ped` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `mascota`
+--
+
+INSERT INTO `mascota` (`Codigo_Mascota`, `Nomb_mascota`, `Nombre_dueño`, `Cumple`, `Raza_mascota`, `cod_ped`) VALUES
+('26', 'parchi', 'merly falla', '2023-10-18', 'Cruzado', '27');
 
 -- --------------------------------------------------------
 
@@ -157,7 +166,9 @@ CREATE TABLE `registro` (
 --
 
 INSERT INTO `registro` (`Codigo_registro`, `Nombres`, `Apellidos`, `Codigo_cliente`, `Correo`, `Barrio`, `Recidencia`) VALUES
-('30', 'sergio andres ', 'morales martinez', '86', 'sebasmena.119@gmail.com', 'Las palmas', 'Neiva-huila');
+('2', 'merly', 'martinez falla', '96', 'merlymartinez23@hotmail.com', 'las palmas ', 'Neiva'),
+('30', 'sergio andres ', 'morales martinez', '86', 'sebasmena.119@gmail.com', 'Las palmas', 'Neiva-huila'),
+('37', 'julian david', 'osorio gomez', '77', 'sebasmena.117@gmail.com', 'Las palmas', 'Neiva');
 
 -- --------------------------------------------------------
 
@@ -274,12 +285,6 @@ ALTER TABLE `cliente`
 ALTER TABLE `factura`
   ADD CONSTRAINT `factura_ibfk_1` FOREIGN KEY (`Cod_cliente`) REFERENCES `cliente` (`codigo_cliente`),
   ADD CONSTRAINT `factura_ibfk_2` FOREIGN KEY (`Cod_producto`) REFERENCES `producto` (`Cod_product`);
-
---
--- Filtros para la tabla `mascota`
---
-ALTER TABLE `mascota`
-  ADD CONSTRAINT `mascota_ibfk_1` FOREIGN KEY (`Codigo_Mascota`) REFERENCES `cita` (`idmascota_cita`);
 
 --
 -- Filtros para la tabla `pedido`
