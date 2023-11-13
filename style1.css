@@ -4223,3 +4223,14 @@ a.canina {
   box-shadow: 0px 0px 10px #83afff;
   border-radius: 10px;
 }
+@media (max-width: 1240px) {
+  .SAT{
+    left: 78%;
+    top: 87%;
+  }
+}
+@media (width: 805px) {
+  .SAT{
+    left: 88%;
+  }
+}
