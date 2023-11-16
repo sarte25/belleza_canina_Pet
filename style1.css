@@ -14,7 +14,12 @@ body { /*FONDO*/
 .justify{/* PARA EL TEXTO */
   text-align: justify;
 } 
-
+@media (max-width: 805px){
+.cont
+{
+  font-size: 92%;
+}
+}
 h1 {
   color: rgb(255, 226, 10);
   padding: 0px;
@@ -3321,7 +3326,11 @@ margin-top: 50px;
   margin-top: -250px;
   margin-right: 100px;
 }
-
+@media(max-width: 1240px){
+  .img_contacto {
+    display: none;
+  }
+}
 /*PRODUCTO venta*/
 .container-products {
   display:grid;
